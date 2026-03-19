@@ -1,6 +1,8 @@
 # @vibefix/mcp
 
-Browse bug bounties and submit fixes on [VibeFix](https://vibefix.co) directly from Claude Code, Cursor, Windsurf, or any MCP-compatible AI coding tool.
+Your AI built it. It broke. Post the bug, a real developer fixes it.
+
+[VibeFix](https://vibefix.co) is a bug bounty platform for vibe coders. This MCP server lets you browse bounties, post bugs, submit fixes, and run website diagnostics directly from Claude Code, Cursor, Windsurf, or any MCP-compatible client. Free to post.
 
 ## Setup
 
@@ -62,6 +64,12 @@ Ask your AI assistant:
 | `vibefix_my_bounties` | List your posted bounties with status and submission counts |
 | `vibefix_list_submissions` | See all submissions received for one of your bounties |
 | `vibefix_accept_submission` | Accept a winning fix — awards payout and XP to the developer |
+
+### Diagnostics
+
+| Tool | Description |
+|------|-------------|
+| `vibefix_diagnose` | Run a Lighthouse audit + JS error scan on any URL — returns performance, SEO, and bug report |
 
 ### Filters for `vibefix_list_bounties`
 
