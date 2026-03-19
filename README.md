@@ -4,6 +4,8 @@ Your AI built it. It broke. Post the bug, a real developer fixes it.
 
 [VibeFix](https://vibefix.co) is a bug bounty platform for vibe coders. This MCP server lets you browse bounties, post bugs, submit fixes, and run website diagnostics directly from Claude Code, Cursor, Windsurf, or any MCP-compatible client. Free to post.
 
+[![vibefix MCP server](https://glama.ai/mcp/servers/VibeFix-Technologies/mcp-server/badges/card.svg)](https://glama.ai/mcp/servers/VibeFix-Technologies/mcp-server)
+
 ## Setup
 
 ### 1. Get an API key
