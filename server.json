@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.vibefix-tech/vibefix",
+  "description": "Bug bounty platform for vibe coders. Post bugs, find fixes, run diagnostics.",
+  "repository": {
+    "url": "https://github.com/vibefix-tech/vibefix",
+    "source": "github",
+    "subfolder": "mcp-server"
+  },
+  "version": "0.3.2",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@vibefix/mcp",
+      "version": "0.3.2",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Your VibeFix API key from vibefix.co/dashboard/integrations",
+          "isRequired": true,
+          "format": "string",
+          "isSecret": true,
+          "name": "VIBEFIX_API_KEY"
+        }
+      ]
+    }
+  ]
+}
