@@ -1,6 +1,6 @@
 {
   "name": "@vibefix/mcp",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "mcpName": "io.github.vibefix-tech/vibefix",
   "description": "MCP server for VibeFix — browse and submit to bug bounties from Claude Code, Cursor, and any MCP client",
   "main": "dist/index.js",
@@ -9,7 +9,8 @@
   },
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "build": "tsc",
@@ -27,7 +28,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vibefix-tech/vibefix"
+    "url": "https://github.com/VibeFix-Technologies/mcp-server"
   },
   "homepage": "https://vibefix.co",
   "dependencies": {
